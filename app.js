@@ -15,7 +15,6 @@ deleteButton.addEventListener('click', (event) => {
     // render the user list
     generateUserList(userData, stocksData);
   })
-
   saveButton.addEventListener('click',(event)=>{
     event.preventDefault();
     const id = document.querySelector('#userID').value;
