@@ -108,8 +108,6 @@ function generateUserList(users,stocks) {
   
         document.querySelector('#logo').src = `logos/${symbol}.svg`;
     }
-}
+  }
   });
-
-
 
